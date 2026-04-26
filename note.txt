@@ -1,0 +1,29 @@
+express
+
+put
+post
+get
+
+mongodb
+mongodb+srv://ukr00008_db_user:cKASlUnYBMWm9T6v@cluster0.36c3tyn.mongodb.net/?appName=Cluster0
+
+hide env in github(using gitignore) so that no one can see the connection of mongodb
+
+//notes_db name of database in mongodb
+
+routes- all routes
+controller- functions whiich need to be called for routes 
+
+middleware - function between req and res => useful for authentication check and rate limiting
+rate limiting -  how often they can send request to the api
+to handle server crash. like only 100 req per user every 15 minutes
+
+429- too many request
+
+upstash- reddis not using now bu it is for ratelimiting
+
+frontend
+
+lucide for symbol
+cors for inter origin operation
+axios to use http method
