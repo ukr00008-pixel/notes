@@ -5,7 +5,7 @@ post
 get
 
 mongodb
-mongodb+srv://ukr00008_db_user:cKASlUnYBMWm9T6v@cluster0.36c3tyn.mongodb.net/?appName=Cluster0
+
 
 hide env in github(using gitignore) so that no one can see the connection of mongodb
 
